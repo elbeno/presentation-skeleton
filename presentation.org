@@ -1,0 +1,38 @@
+#    -*- mode: org -*-
+#+OPTIONS: reveal_center:t reveal_progress:nil reveal_history:nil reveal_control:nil
+#+OPTIONS: reveal_mathjax:t reveal_rolling_links:nil reveal_keyboard:t reveal_overview:t num:nil
+#+OPTIONS: reveal_width:1600 reveal_height:900
+#+OPTIONS: toc:nil <:nil timestamp:nil email:t reveal_slide_number:"c/t"
+#+OPTIONS: ^:{}
+#+REVEAL_MARGIN: 0.1
+#+REVEAL_MIN_SCALE: 0.5
+#+REVEAL_MAX_SCALE: 2.5
+#+REVEAL_TRANS: none
+#+REVEAL_THEME: blood
+#+REVEAL_HLEVEL: 1
+#+REVEAL_EXTRA_CSS: ./presentation.css
+#+REVEAL_EXTRA_CSS: ./emoji.css
+#+REVEAL_ROOT: ../reveal.js/
+#+MACRO: hilite @@html:<span style="color:#e7ad52">$1</span>@@
+#+MACRO: fontsize @@html:<span style="font-size:$1px">$2</span>@@
+#+MACRO: hilitefontsize @@html:<span style="color:#e7ad52; font-size:$1px">$2</span>@@
+
+#+TITLE: Talk TItle
+#+SUBTITLE: Talk Subtitle
+#+AUTHOR: Ben Deane
+#+DATE: Date
+
+* not for export                                                   :noexport:
+#+begin_src emacs-lisp
+  ;; don't confuse python export
+  (setq company-frontends nil)
+#+end_src
+
+#+REVEAL_HTML: <script type="text/javascript" src="./presentation.js"></script>
+
+#+REVEAL_TITLE_SLIDE: <h2>%t</h2><h3>%s</h3><img src="lorikeet.png" style="width:600px"><h4>%a / Place / %d</h4>
+
+* Disclaimers
+#+REVEAL_HTML: <div class='vertspace1'></div>
+
+No AI was used in the creation of this talk.
