@@ -8,31 +8,76 @@
 #+REVEAL_MIN_SCALE: 0.5
 #+REVEAL_MAX_SCALE: 2.5
 #+REVEAL_TRANS: none
-#+REVEAL_THEME: blood
+#+REVEAL_THEME: white
 #+REVEAL_HLEVEL: 1
-#+REVEAL_EXTRA_CSS: ./presentation.css
+#+REVEAL_EXTRA_CSS: ./presentation-light.css
+#+REVEAL_HIGHLIGHT_CSS: ./presentation-light.css
 #+REVEAL_EXTRA_CSS: ./emoji.css
 #+REVEAL_ROOT: ../reveal.js/
 #+MACRO: hilite @@html:<span style="color:#e7ad52">$1</span>@@
 #+MACRO: fontsize @@html:<span style="font-size:$1px">$2</span>@@
 #+MACRO: hilitefontsize @@html:<span style="color:#e7ad52; font-size:$1px">$2</span>@@
 
-#+TITLE: Talk TItle
-#+SUBTITLE: Talk Subtitle
+#+TITLE: Title
+#+SUBTITLE: Subtitle
 #+AUTHOR: Ben Deane
-#+DATE: Date
+#+DATE: 2025-06-05
 
 * not for export                                                   :noexport:
 #+begin_src emacs-lisp
-  ;; don't confuse python export
-  (setq company-frontends nil)
+  ;; more visible comments (light mode)
+  (set-face-attribute 'font-lock-comment-face nil :foreground "#333333")
+  ;; more visible comments (dark mode)
+  (set-face-attribute 'font-lock-comment-face nil :foreground "#c8c8c8")
+
+  ;; turn off rainbow-delimiters
+  (defun rainbow-delimiters-default-pick-face (depth match loc)
+      'rainbow-delimiters-base-face)
 #+end_src
 
 #+REVEAL_HTML: <script type="text/javascript" src="./presentation.js"></script>
 
-#+REVEAL_TITLE_SLIDE: <h2>%t</h2><h3>%s</h3><img src="lorikeet.png" style="width:600px"><h4>%a / Place / %d</h4>
+#+REVEAL_TITLE_SLIDE: <h2>%t</h2><h3>%s</h3><img src="lorikeet.png" style="width:500px"><h4>%a / %d</h4>
 
-* Disclaimers
+* Slide 1
 #+REVEAL_HTML: <div class='vertspace1'></div>
+Lorem ipsum
 
-No AI was used in the creation of this talk.
+#+REVEAL_HTML: <object type="image/svg+xml" data="subset.svg" height=400px></object>
+
+#+begin_notes
+Notes
+#+end_notes
+
+* Slide 2
+#+REVEAL_HTML: <div class='vertspace1'></div>
+Here is ~inline~ code.
+
+#+begin_src c++
+auto main() -> void {}
+#+end_src
+
+* Slide 3
+#+REVEAL_HTML: <div class='vertspace1'></div>
+#+REVEAL_HTML: <div align="left">
+
+"...our intellectual powers are rather geared to master static relations and ...
+our powers to visualize processes evolving in time are relatively poorly
+developed. For that reason we should do (as wise programmers aware of our
+limitations) our utmost to shorten the conceptual gap between the static program
+and the dynamic process, to make the correspondence between the program (spread
+out in text space) and the process (spread out in time) as trivial as possible."
+#+REVEAL_HTML: </div>
+
+#+REVEAL_HTML: <div align="right">
+-- Edsger Dijkstra\\
+(EWD 215 - A Case Against the GOTO Statement)
+#+REVEAL_HTML: <div style='font-size: 20px'><a href="https://www.cs.utexas.edu/~EWD/transcriptions/EWD02xx/EWD215.html">https://www.cs.utexas.edu/~EWD/transcriptions/EWD02xx/EWD215.html</a></div>
+#+REVEAL_HTML: </div>
+
+* Slide 4
+#+ATTR_HTML: :width 40% :align left
+#+REVEAL_HTML: <img src="lorikeet.png" style="height:300px">
+
+#+ATTR_HTML: :width 40% :align right
+#+REVEAL_HTML: <img src="lorikeet.png" style="height:300px">

@@ -1,0 +1,506 @@
+@font-face {
+    font-family: 'Atkinson Hyperlegible';
+    src: url(../fonts/Atkinson-Hyperlegible-Regular-102.woff) format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Atkinson Hyperlegible';
+    src: url(../fonts/Atkinson-Hyperlegible-Bold-102.woff) format('woff');
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Atkinson Hyperlegible';
+    src: url(../fonts/Atkinson-Hyperlegible-Italic-102.woff) format('woff');
+    font-style: italic;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Atkinson Hyperlegible';
+    src: url(../fonts/Atkinson-Hyperlegible-BoldItalic-102.woff) format('woff');
+    font-style: italic;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Atkinson Hyperlegible Mono';
+    src: url(../fonts/AtkinsonHyperlegibleMono-ExtraLight.woff2) format('woff2');
+    font-style: normal;
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'Atkinson Hyperlegible Mono';
+    src: url(../fonts/AtkinsonHyperlegibleMono-ExtraLightItalic.woff2) format('woff2');
+    font-style: italic;
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'Atkinson Hyperlegible Mono';
+    src: url(../fonts/AtkinsonHyperlegibleMono-Light.woff2) format('woff2');
+    font-style: normal;
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Atkinson Hyperlegible Mono';
+    src: url(../fonts/AtkinsonHyperlegibleMono-LightItalic.woff2) format('woff2');
+    font-style: italic;
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Atkinson Hyperlegible Mono';
+    src: url(../fonts/AtkinsonHyperlegibleMono-Regular.woff2) format('woff2');
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Atkinson Hyperlegible Mono';
+    src: url(../fonts/AtkinsonHyperlegibleMono-RegularItalic.woff2) format('woff2');
+    font-style: italic;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Atkinson Hyperlegible Mono';
+    src: url(../fonts/AtkinsonHyperlegibleMono-Medium.woff2) format('woff2');
+    font-style: normal;
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Atkinson Hyperlegible Mono';
+    src: url(../fonts/AtkinsonHyperlegibleMono-MediumItalic.woff2) format('woff2');
+    font-style: italic;
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Atkinson Hyperlegible Mono';
+    src: url(../fonts/AtkinsonHyperlegibleMono-SemiBold.woff2) format('woff2');
+    font-style: normal;
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Atkinson Hyperlegible Mono';
+    src: url(../fonts/AtkinsonHyperlegibleMono-SemiBoldItalic.woff2) format('woff2');
+    font-style: italic;
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Atkinson Hyperlegible Mono';
+    src: url(../fonts/AtkinsonHyperlegibleMono-Bold.woff2) format('woff2');
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Atkinson Hyperlegible Mono';
+    src: url(../fonts/AtkinsonHyperlegibleMono-BoldItalic.woff2) format('woff2');
+    font-style: italic;
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Atkinson Hyperlegible Mono';
+    src: url(../fonts/AtkinsonHyperlegibleMono-ExtraBold.woff2) format('woff2');
+    font-style: normal;
+    font-weight: 800;
+}
+@font-face {
+    font-family: 'Atkinson Hyperlegible Mono';
+    src: url(../fonts/AtkinsonHyperlegibleMono-ExtraBoldItalic.woff2) format('woff2');
+    font-style: italic;
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Atkinson Hyperlegible Next';
+    src: url(../fonts/AtkinsonHyperlegibleNext-ExtraLight.woff2) format('woff2');
+    font-style: normal;
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'Atkinson Hyperlegible Next';
+    src: url(../fonts/AtkinsonHyperlegibleNext-ExtraLightItalic.woff2) format('woff2');
+    font-style: italic;
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'Atkinson Hyperlegible Next';
+    src: url(../fonts/AtkinsonHyperlegibleNext-Light.woff2) format('woff2');
+    font-style: normal;
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Atkinson Hyperlegible Next';
+    src: url(../fonts/AtkinsonHyperlegibleNext-LightItalic.woff2) format('woff2');
+    font-style: italic;
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Atkinson Hyperlegible Next';
+    src: url(../fonts/AtkinsonHyperlegibleNext-Regular.woff2) format('woff2');
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Atkinson Hyperlegible Next';
+    src: url(../fonts/AtkinsonHyperlegibleNext-RegularItalic.woff2) format('woff2');
+    font-style: italic;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Atkinson Hyperlegible Next';
+    src: url(../fonts/AtkinsonHyperlegibleNext-Medium.woff2) format('woff2');
+    font-style: normal;
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Atkinson Hyperlegible Next';
+    src: url(../fonts/AtkinsonHyperlegibleNext-MediumItalic.woff2) format('woff2');
+    font-style: italic;
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Atkinson Hyperlegible Next';
+    src: url(../fonts/AtkinsonHyperlegibleNext-SemiBold.woff2) format('woff2');
+    font-style: normal;
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Atkinson Hyperlegible Next';
+    src: url(../fonts/AtkinsonHyperlegibleNext-SemiBoldItalic.woff2) format('woff2');
+    font-style: italic;
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Atkinson Hyperlegible Next';
+    src: url(../fonts/AtkinsonHyperlegibleNext-Bold.woff2) format('woff2');
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Atkinson Hyperlegible Next';
+    src: url(../fonts/AtkinsonHyperlegibleNext-BoldItalic.woff2) format('woff2');
+    font-style: italic;
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Atkinson Hyperlegible Next';
+    src: url(../fonts/AtkinsonHyperlegibleNext-ExtraBold.woff2) format('woff2');
+    font-style: normal;
+    font-weight: 800;
+}
+@font-face {
+    font-family: 'Atkinson Hyperlegible Next';
+    src: url(../fonts/AtkinsonHyperlegibleNext-ExtraBoldItalic.woff2) format('woff2');
+    font-style: italic;
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Berkeley Mono';
+    src: url(../fonts/BerkeleyMono-ExtraLight.woff2) format('woff2');
+    font-style: normal;
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'Berkeley Mono';
+    src: url(../fonts/BerkeleyMono-ExtraLight-Oblique.woff2) format('woff2');
+    font-style: italic;
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'Berkeley Mono';
+    src: url(../fonts/BerkeleyMono-Light.woff2) format('woff2');
+    font-style: normal;
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Berkeley Mono';
+    src: url(../fonts/BerkeleyMono-Light-Oblique.woff2) format('woff2');
+    font-style: italic;
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Berkeley Mono';
+    src: url(../fonts/BerkeleyMono-SemiLight.woff2) format('woff2');
+    font-style: normal;
+    font-weight: 350;
+}
+@font-face {
+    font-family: 'Berkeley Mono';
+    src: url(../fonts/BerkeleyMono-SemiLight-Oblique.woff2) format('woff2');
+    font-style: italic;
+    font-weight: 350;
+}
+@font-face {
+    font-family: 'Berkeley Mono';
+    src: url(../fonts/BerkeleyMono-Regular.woff2) format('woff2');
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Berkeley Mono';
+    src: url(../fonts/BerkeleyMono-Oblique.woff2) format('woff2');
+    font-style: italic;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Berkeley Mono';
+    src: url(../fonts/BerkeleyMono-Medium.woff2) format('woff2');
+    font-style: normal;
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Berkeley Mono';
+    src: url(../fonts/BerkeleyMono-Medium-Oblique.woff2) format('woff2');
+    font-style: italic;
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Berkeley Mono';
+    src: url(../fonts/BerkeleyMono-SemiBold.woff2) format('woff2');
+    font-style: normal;
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Berkeley Mono';
+    src: url(../fonts/BerkeleyMono-SemiBold-Oblique.woff2) format('woff2');
+    font-style: italic;
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Berkeley Mono';
+    src: url(../fonts/BerkeleyMono-Bold.woff2) format('woff2');
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Berkeley Mono';
+    src: url(../fonts/BerkeleyMono-Bold-Oblique.woff2) format('woff2');
+    font-style: italic;
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Berkeley Mono';
+    src: url(../fonts/BerkeleyMono-ExtraBold.woff2) format('woff2');
+    font-style: normal;
+    font-weight: 800;
+}
+@font-face {
+    font-family: 'Berkeley Mono';
+    src: url(../fonts/BerkeleyMono-ExtraBold-Oblique.woff2) format('woff2');
+    font-style: italic;
+    font-weight: 800;
+}
+
+.reveal {
+    font-family: 'Atkinson Hyperlegible Next';
+    text-transform: initial;
+}
+.reveal code {
+    font-family: 'Berkeley Mono';
+    text-transform: initial;
+    color: rgb(131, 3, 82);
+}
+
+.reveal p code {
+    background-color: #fbf7f0;
+}
+
+.reveal li code {
+    background-color: #fbf7f0;
+}
+
+.reveal h2 code {
+    background-color: #fbf7f0;
+}
+
+.reveal a {
+    text-transform: initial;
+}
+
+.reveal pre {
+    font-family: 'Berkeley Mono';
+    font-size: 32px;
+}
+
+.org-src-container pre {
+    width: 93%;
+    padding: 20px;
+
+    /* for dark theme */
+    /* color: #dcdccc; */
+    /* background-color: #111111; */
+
+    /* for light theme */
+    color: #222222;
+    background-color: #fbf7f0;
+}
+
+.reveal h2,
+.reveal h3,
+.reveal h4 {
+    font-family: 'Atkinson Hyperlegible Next';
+    text-transform: initial;
+    /* color: rgb(238, 238, 238); */
+}
+
+.reveal .highlight1 {
+    color: #222222;
+    background-color: rgb(255, 255, 0);
+}
+.reveal .highlight2 {
+    color: #222222;
+    background-color: rgb(80, 200, 238);
+}
+
+#sec-title-slide h2 {
+    font-size: 100px;
+    /* color: rgb(238, 238, 238); */
+}
+
+.reveal .vertspace1 {
+    padding-bottom: 1cm;
+}
+.reveal .vertspace2 {
+    padding-bottom: 2cm;
+}
+.reveal .vertspace3 {
+    padding-bottom: 3cm;
+}
+.reveal .vertspace4 {
+    padding-bottom: 4cm;
+}
+.reveal .vertspace5 {
+    padding-bottom: 5cm;
+}
+.reveal .vertspace6 {
+    padding-bottom: 6cm;
+}
+.reveal blockquote {
+    background-color: #111111;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.reveal blockquote .author {
+    float: right;
+    margin-right: 15px;
+    padding-top: 15px;
+}
+.reveal blockquote tt {
+    font-style: normal;
+}
+.reveal section img {
+    border: 0px;
+    /* background: #222222; */
+    box-shadow: none;
+}
+
+#sec-title-slide h3 {
+    font-size: 60px;
+    /* color: rgb(238, 238, 238); */
+}
+
+.reveal .slide-number {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-family: 'Berkeley Mono';
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(131, 3, 82);
+    background-color: transparent;
+}
+
+.reveal .controls {
+    color: rgb(131, 3, 82);
+}
+
+.reveal .progress span {
+    background: rgb(131, 3, 82);
+}
+
+.reveal a {
+    font-family: 'Berkeley Mono';
+    color: rgb(131, 3, 82);
+}
+
+#left {
+  left:-8.33%;
+  text-align: right;
+  float: left;
+  width:50%;
+  z-index:-10;
+}
+
+#left2 {
+  left:-8.33%;
+  text-align: right;
+  float: left;
+  width:45%;
+  z-index:-10;
+}
+
+#right {
+  left:31.25%;
+  top:75px;
+  float: right;
+  text-align: left;
+  z-index:-10;
+  width:50%;
+}
+
+#right2 {
+  left:31.25%;
+  top: 75px;
+  float: right;
+  text-align: left;
+  z-index:-10;
+  width:45%;
+}
+
+.reveal table td {
+    text-align: center;
+    border: 2px solid black;
+}
+.reveal table th {
+    text-align: center;
+    color: rgb(131, 3, 82);
+    border: 2px solid black;
+}
+.reveal table {
+    border: 2px solid black;
+}
+
+.reveal .star {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    text-align: center;
+}
+.reveal .star img {
+    border: 0px;
+    background: rgba(255,255,255,0);
+}
+.reveal .star .text_over_img {
+    font-family: 'Berkeley Mono';
+    font-size: 36px;
+    font-weight: 700;
+    color: rgb(131, 3, 82);
+    position: absolute;
+    margin: auto;
+    top: 35px;
+    bottom: 0;
+    left: 8px;
+    right: 0;
+}
+
+#ce-root {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.fixed-width-400 {
+    display: inline-block;
+    width: 400px;
+    color: rgb(131, 3, 82);
+}
